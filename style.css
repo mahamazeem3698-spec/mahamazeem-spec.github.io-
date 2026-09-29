@@ -63,20 +63,17 @@ a {
     backdrop-filter: blur(10px);
 }
 
+
 .logo {
-    font-size: 24px;
-    font-weight: 700;
-
-    letter-spacing: 3px;
-
-    color: #252a2f;
+    display: flex;
+    align-items: center;
 }
 
-.logo span {
-    color: #657786;
-    
+.logo img {
+     width: 105px;
+     height: auto;
+    display: block;
 }
-
 
 nav {
     display: flex;
@@ -609,7 +606,7 @@ footer a:hover {
    MOBILE RESPONSIVE
 ===================================================== */
 
-@media (max-width: 700px) {
+@media (max-width: 90px) {
 
     /* Navbar */
 
